@@ -4,7 +4,7 @@
 int main() {
     char vetor[100];
     int tamanho, inicio = 0, fim;
-    char aux;
+    char aux;1
 
     printf("STRING: \n");
     fgets(vetor, sizeof(vetor), stdin);
@@ -25,6 +25,8 @@ int main() {
     }
 
     printf("String invertida: %s\n", vetor);
+    printf("OI galera");
+    printf("Oi bom?");
 
     return 0;
 }
